@@ -13524,7 +13524,7 @@ export default {
         }
     },
       created() {
-        this.socket = io('https://mighty-plateau-03052.herokuapp.com/' , { transport : ['websocket'] });
+        this.socket = io('testtesttest' , { transport : ['websocket'] });
 this.socket.on('chat-message', (data) => {
             this.messages.push({ message: data.message, type: 1, by: data.user })
             this.typing = false
