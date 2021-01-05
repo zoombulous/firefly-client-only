@@ -1,0 +1,17 @@
+.card {
+  display: inline-block;
+  min-height: 4em;
+  padding-left: 4em;
+  background-size: 4em;
+  background-repeat: no-repeat;
+}
+
+.card-1 {
+    background-image: url("img20200320_16180561.jpg");
+}
+.card-2 {
+    background-image: url("Alliance_Space/img20200320_16181496.jpg");
+}
+.card-3 {
+    background-image: url("Alliance_Space/img20200320_16181772.jpg");
+}

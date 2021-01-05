@@ -1,0 +1,3296 @@
+.masterPosition {
+    position: relative;
+    top: 1400px;
+    left: 300px;
+}
+
+.masterPositionPlayer1 {
+    position: relative;
+    top: 2500px;
+    left: 300px;
+}
+
+.masterPositionPlayer2 {
+    position: relative;
+    top: 1000px;
+    left: 300px;
+}
+
+.masterPositionPlayer2Altered {
+    position: relative;
+    top: -1500px;
+    left: 0px;
+}
+
+.masterPositionPlayer3 {
+    position: relative;
+    top: -1500px;
+    left: 0px;
+}
+
+.masterPositionPlayer3Altered {
+    position: relative;
+    top: -500px;
+    left: 300px;
+}
+
+.masterPositionPlayer4 {
+    position: relative;
+    top: -2000px;
+    left: 300px;
+}
+
+.masterPositionPlayer4Altered2 {
+    position: relative;
+    top: -300px;
+    left: 300px;
+}
+
+
+.startPage {
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
+
+.boxPosition {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.invContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+#chatbox {
+    height: 200px;
+    max-width: 400px;
+    overflow-y: scroll;
+}
+
+.btn-discard {
+    padding: 10% 0; 
+    /* define values in pixels / Percentage or em. whatever suits 
+       your requirements */
+}
+
+p.solid {border-style: solid;}
+
+.canvasPosition {
+  position: absolute;
+  top: 220px;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+}
+
+.rollDice {
+  position: absolute;
+  top: 2021.5px;
+  bottom: 0;
+  left: 1740px;
+  right: 0;
+  text-align: center;
+  z-index:7;
+  font-size: 80px;
+}
+
+.playerLabel {
+  position: absolute;
+  top: 275px;
+  bottom: 0;
+  left: -1800px;
+  right: 0;
+  text-align: center;
+  z-index:7;
+  font-size: 100px;
+}
+
+.playerNumber {
+  position: absolute;
+  top: -230px;
+  bottom: 0;
+  left: 350px;
+  right: 0;
+  text-align: left;
+  z-index:7;
+  font-size: 60px;
+  height: 700px;
+  max-width: 500px;
+}
+
+.totalSupply {
+  position: absolute;
+  top: 450px;
+  bottom: 0;
+  left: -565px;
+  right: 0;
+  text-align: left;
+  z-index:7;
+  font-size: 20px;
+  height: 900px;
+  max-width: 400px;
+}
+
+.scrollDown {
+  position: absolute;
+  top: -1400px;
+  bottom: 0;
+  left: -100px;
+  right: 0;
+  text-align: center;
+  z-index:7;
+}
+
+.playerShipLabel {
+  position: absolute;
+  top: -1320px;
+  bottom: 0;
+  left: -1400px;
+  right: 0;
+  text-align: center;
+  z-index:7;
+}
+
+.movingButtons {
+  position: absolute;
+  top: -1330px;
+  bottom: 0;
+  left: -855px;
+  right: 0px;
+  text-align: center;
+  z-index:10;
+}
+
+.allianceButtons {
+  position: absolute;
+  top: -1330px;
+  bottom: 0;
+  left: 550px;
+  right: 0px;
+  text-align: center;
+  z-index:10;
+}
+
+.cruiserButtons {
+  position: absolute;
+  top: -1330px;
+  bottom: 0;
+  left: 1040px;
+  right: 0px;
+  width: 1000px;
+  text-align: center;
+  z-index:10;
+}
+
+.reaverButtons {
+  position: absolute;
+  top: -1330px;
+  bottom: 0;
+  left: 1730px;
+  right: 0px;
+  width: 1000px;
+  text-align: center;
+  z-index:10;
+}
+
+.diceBox {
+  position: absolute;
+  top: 2000px;
+  bottom: 0;
+  left: 1715px;
+  right: 0;
+  text-align: center;
+  z-index:3;
+  font-size: 100px;
+}
+
+.jobsCompleteLabel {
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  left: 415px;
+  right: 0;
+  text-align: center;
+  z-index:10;
+  font-size: 40px;
+  display: inline;
+}
+
+.diceButton {
+  position: absolute;
+  top: 2150px;
+  bottom: 0;
+  left: 1705px;
+  right: 0;
+  text-align: center;
+  z-index:10;
+  font-size: 100px;
+  width: 118px;
+  height: 70px;
+
+}
+
+.3give1 {
+  position: absolute;
+  top: 92px;
+  bottom: 0;
+  left: 275px;
+  right: 0;
+  text-align: center;
+  z-index:2
+}
+
+.p3s1and2 {
+  position: absolute;
+  top: 92px;
+  bottom: 0;
+  left: 285px;
+  right: 0;
+  text-align: center;
+  z-index:2
+}
+
+img-wrapper {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.moneyAmount {
+  position: absolute;
+  top: -10px;
+  bottom:0px;
+  left: 640px;
+  right: 0px;
+  z-index:1;
+  text-align: left;
+  font-size: 40px;
+  height: 2000px;
+  width: 1000px;
+  max-width: 2000px;
+}
+
+.goalTokens {
+  position: absolute;
+  top: -140px;
+  bottom:0px;
+  left: 790px;
+  right: 0px;
+  z-index:1;
+  text-align: left;
+  font-size: 30px;
+  height: 2000px;
+  width: 1000px;
+  max-width: 2000px;
+}
+
+.goalTokensAdd {
+  position: absolute;
+  top: -140px;
+  bottom:0px;
+  left: 640px;
+  right: 0px;
+  z-index:10;
+  text-align: left;
+  font-size: 30px;
+}
+
+.warrants {
+  position: absolute;
+  top: -70px;
+  bottom:0px;
+  left: 790px;
+  right: 0px;
+  z-index:1;
+  text-align: left;
+  font-size: 30px;
+  height: 2000px;
+  width: 1000px;
+  max-width: 2000px;
+}
+
+.warrantsAdd {
+  position: absolute;
+  top: -70px;
+  bottom:0px;
+  left: 640px;
+  right: 0px;
+  z-index:10;
+  text-align: left;
+  font-size: 30px;
+}
+
+.hundredCredits {
+  position: absolute;
+  top: 50px;
+  bottom:0px;
+  left: 634px;
+  right: 0px;
+  z-index:50;
+}
+
+.negativeHundredCredits {
+  position: absolute;
+  top: 150px;
+  bottom:0px;
+  left: 634px;
+  right: 0px;
+  z-index:50;
+}
+
+.fiveHundred {
+  position: absolute;
+  top: 50px;
+  bottom:0px;
+  left: 775px;
+  right: 0px;
+  z-index:50;
+}
+
+.negativeFiveHundred {
+  position: absolute;
+  top: 150px;
+  bottom:0px;
+  left: 775px;
+  right: 0px;
+  z-index:50;
+}
+
+.thousand {
+  position: absolute;
+  top: 50px;
+  bottom:0px;
+  left: 920px;
+  right: 0px;
+  z-index:50;
+}
+
+.negativeThousand {
+  position: absolute;
+  top: 150px;
+  bottom:0px;
+  left: 920px;
+  right: 0px;
+  z-index:50;
+}
+
+.twoThousand {
+  position: absolute;
+  top: 50px;
+  bottom:0px;
+  left: 1060px;
+  right: 0px;
+  z-index:50;
+}
+
+.negativeTwoThousand {
+  position: absolute;
+  top: 150px;
+  bottom:0px;
+  left: 1060px;
+  right: 0px;
+  z-index:50;
+}
+
+.finishedJobs {
+  position: absolute;
+  top: 50px;
+  bottom:0px;
+  left: 370px;
+  right: 0px;
+  z-index:52;
+}
+
+.rotateJobs {
+  position: absolute;
+  top: 225px;
+  bottom:0px;
+  left: 430px;
+  right: 0px;
+  z-index:50;
+  width: 109px;
+  height: 50px;
+}
+
+.job1 {
+  position: absolute;
+  top: 270px;
+  bottom:0px;
+  left: -40px;
+  right: 0px;
+  z-index:1;
+  width: 10%;
+}
+
+.p3h1StartJob{
+  position: absolute;
+  top: 450px;
+  bottom:0px;
+  left: -315px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h2StartJob{
+  position: absolute;
+  top: 690px;
+  bottom:0px;
+  left: -315px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h3StartJob{
+  position: absolute;
+  top: 935px;
+  bottom:0px;
+  left: -315px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.jobHidden1 {
+  position: absolute;
+  top: 270px;
+  bottom:0px;
+  left: -320px;
+  right: 0px;
+  z-index:1;
+  width: 10%;
+}
+
+.jobHidden2 {
+  position: absolute;
+  top: 510px;
+  bottom: 0px;
+  left: -320px;
+  right: 0px;
+  z-index:2;
+  width: 50%;
+}
+
+.jobHidden3 {
+  position: absolute;
+  top: 750px;
+  bottom: 0px;
+  left: -320px;
+  right: 0px;
+  z-index:2;
+  width: 50%;
+}
+
+.job2 {
+  position: absolute;
+  top: 510px;
+  bottom: 0px;
+  left: -40px;
+  right: 0px;
+  z-index:2;
+  width: 50%;
+}
+
+.job3 {
+  position: absolute;
+  top: 750px;
+  bottom: 0px;
+  left: -40px;
+  right: 0px;
+  z-index:2;
+  width: 50%;
+}
+
+.p3h1JobComplete{
+  position: absolute;
+  top: 450px;
+  bottom:0px;
+  left: -35px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h1DiscardJob{
+  position: absolute;
+  top: 450px;
+  bottom:0px;
+  left: -190px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h1DiscardJobStarted{
+  position: absolute;
+  top: 450px;
+  bottom:0px;
+  left: 90px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h2DiscardJobStarted{
+  position: absolute;
+  top: 690px;
+  bottom:0px;
+  left: 90px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h3DiscardJobStarted{
+  position: absolute;
+  top: 935px;
+  bottom:0px;
+  left: 90px;
+  right: 0px;
+  z-index:100;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h2JobComplete{
+  position: absolute;
+  top: 690px;
+  bottom:0px;
+  left: -35px;
+  right: 0px;
+  z-index:30;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h2DiscardJob{
+  position: absolute;
+  top: 690px;
+  bottom:0px;
+  left: -190px;
+  right: 0px;
+  z-index:30;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h3JobComplete{
+  position: absolute;
+  top: 935px;
+  bottom:0px;
+  left: -35px;
+  right: 0px;
+  z-index:30;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h3DiscardJob{
+  position: absolute;
+  top: 935px;
+  bottom:0px;
+  left: -190px;
+  right: 0px;
+  z-index:30;
+  width: 109px;
+  height: 50px;
+}
+
+.p3h3GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1216px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h1GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1215px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h1GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1290px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h1GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1365px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h1DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 1215px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h2GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1462px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h2GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1537px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h2GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1613px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h2DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 1462px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h3GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h3GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1788px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h3GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1863px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h3DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 1713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h4GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 1963px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h4GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2038px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h4GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2113px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h4DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 1963px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h5GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2213px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h5GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2288px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h5GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2363px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h5DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 2213px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h6GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h6GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2539px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h6GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2614px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h6DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 2464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h7GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h7GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2788px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h7GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2864px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h7DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 2713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h8GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 2964px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h8GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3039px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h8GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3115px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h8DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 2964px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h9GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3214px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h9GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3289px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h9GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3364px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h9DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 3214px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h10GiveP1Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h10GiveP2Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3539px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h10GiveP4Crew{
+    position: absolute;
+    top: 665px;
+    bottom: 0px;
+    left: 3614px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h10DiscardCrew{
+    position: absolute;
+    top: 740px;
+    bottom: 0px;
+    left: 3464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h1GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1216px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h1GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1290px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h1GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1365px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h1DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 1215px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h2GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1462px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h2GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1537px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h2GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1613px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h2DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 1462px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h3GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h3GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1788px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h3GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1863px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h3DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 1713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h4GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 1963px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h4GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2038px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h4GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2113px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h4DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 1963px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h5GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2213px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h5GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2288px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h5GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2363px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h5DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 2213px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h6GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h6GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2539px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h6GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2614px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h6DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 2464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h7GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h7GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2788px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h7GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2864px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h7DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 2713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h8GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 2964px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h8GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3039px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h8GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3115px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h8DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 2964px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h9GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3214px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h9GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3289px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h9GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3364px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h9DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 3214px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h10GiveP1Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h10GiveP2Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3539px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+}
+
+.p3h10GiveP4Items{
+    position: absolute;
+    top: 1159px;
+    bottom: 0px;
+    left: 3614px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 67px;
+    height: 70px;
+
+}
+
+.p3h10DiscardItems{
+    position: absolute;
+    top: 1235px;
+    bottom: 0px;
+    left: 3464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr1SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 1216px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h1DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 1216px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr2SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 1463px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h2DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 1463px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr3SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 1713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h3DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 1713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr4SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 1963px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h4DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 1963px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr5SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 2213px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h5DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 2213px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr6SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 2464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h6DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 2464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr7SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 2713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h7DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 2713px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3i1Switch2{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 1425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3pr8SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 2964px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h8DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 2964px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr9SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 3214px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h9DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 3214px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3pr10SwitchDown{
+    position: absolute;
+    top: 192px;
+    bottom: 0px;
+    left: 3464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h10DiscardPrivate{
+    position: absolute;
+    top: 250px;
+    bottom: 0px;
+    left: 3464px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h1DiscardUpgrades{
+    position: absolute;
+    top: 1116px;
+    bottom: 0px;
+    left: 234px;
+    right: 0px;
+    text-align: center;
+    z-index:50;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h2DiscardUpgrades{
+    position: absolute;
+    top: 1116px;
+    bottom: 0px;
+    left: 475px;
+    right: 0px;
+    text-align: center;
+    z-index:50;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h3DiscardUpgrades{
+    position: absolute;
+    top: 1116px;
+    bottom: 0px;
+    left: 717px;
+    right: 0px;
+    text-align: center;
+    z-index:50;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3h4DiscardUpgrades{
+    position: absolute;
+    top: 1116px;
+    bottom: 0px;
+    left: 962px;
+    right: 0px;
+    text-align: center;
+    z-index:50;
+    font-size: 40px;
+    width: 218px;
+    height: 50px;
+}
+
+.p3i2Switch3{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 1675px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i3Switch4{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 1925px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i4Switch5{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 2175px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i5Switch6{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 2425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i6Switch7{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 2675px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i7Switch8{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 2925px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i8Switch9{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 3175px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3i9Switch10{
+    position: absolute;
+    top: 952px;
+    bottom: 0px;
+    left: 3425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+
+.p3h1Switch2{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 1425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h2Switch3{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 1675px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h3Switch4{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 1925px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h4Switch5{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 2175px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h5Switch6{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 2425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h6Switch7{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 2675px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h7Switch8{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 2925px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h8Switch9{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 3175px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h9Switch10{
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    left: 3425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+
+.p3priv1Switch2{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 1425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv2Switch3{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 1675px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv3Switch4{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 1925px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv4Switch5{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 2175px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv5Switch6{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 2425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv6Switch7{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 2675px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv7Switch8{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 2925px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv8Switch9{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 3175px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3priv9Switch10{
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    left: 3425px;
+    right: 0px;
+    text-align: center;
+    z-index:10;
+    font-size: 40px;
+}
+
+.p3h1 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 1205px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h1Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 1216px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h2Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 1462px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h3Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 1713px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h4Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 1961px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h5Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 2211px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h6Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 2464px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h7Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 2711px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h8Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 2961px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h9Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 3213px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h10Mood {
+  position: absolute;
+  top: 330px;
+  bottom: 0px;
+  left: 3462px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.p3h2 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 1450px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h3 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 1701px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h4 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 1949px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h5 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 2200px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h6 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 2451px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h7 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 2699px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h8 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 2950px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h9 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 3201px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3h10 {
+  position: absolute;
+  top: 320px;
+  bottom: 0px;
+  left: 3451px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr1 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 1205px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr2 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 1450px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr3 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 1701px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr4 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 1949px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr5 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 2200px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr6 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 2451px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr7 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 2699px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr8 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 2950px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr9 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 3201px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3pr10 {
+  position: absolute;
+  top: -153px;
+  bottom: 0px;
+  left: 3451px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3i1 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 1205px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3i2 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 1450px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3i3 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 1701px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3i4 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 1949px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3i5 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 2200px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3i6 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 2451px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3i7 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 2699px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3i8 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 2950px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3i9 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 3201px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3i10 {
+  position: absolute;
+  top: 814px;
+  bottom: 0px;
+  left: 3451px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3su1 {
+  position: absolute;
+  top: 770px;
+  bottom: 0px;
+  left: 220px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.p3su2 {
+  position: absolute;
+  top: 770px;
+  bottom: 0px;
+  left: 465px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3su3 {
+  position: absolute;
+  top: 770px;
+  bottom: 0px;
+  left: 705px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+.p3su4 {
+  position: absolute;
+  top: 770px;
+  bottom: 0px;
+  left: 949px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.shopSelect {
+  position: absolute;
+  top: 1425px;
+  bottom: 0px;
+  left: 100px;
+  right: 0px;
+  text-align: center;
+  width: 500px;
+  z-index: 12;
+}
+
+.shop1Draw {
+  position: absolute;
+  top: 1500px;
+  bottom: 0px;
+  left: 100px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+    width: 118px;
+  height: 80px;
+
+}
+
+.shop1Discard {
+  position: absolute;
+  top: 1500px;
+  bottom: 0px;
+  left: 400px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+    width: 118px;
+  height: 80px;
+
+}
+
+.addShopToConsidered {
+  position: absolute;
+  top: 1855px;
+  bottom: 0px;
+  left: 115px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 218px;
+  height: 80px;
+
+}
+
+.addShopDiscardToConsidered {
+  position: absolute;
+  top: 1855px;
+  bottom: 0px;
+  left: 415px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 218px;
+  height: 80px;
+
+}
+
+.discardBeaumondeShopConsidered1 {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 130px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+
+}
+
+.discardBeaumondeShopConsidered2 {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 380px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+
+}
+
+.discardBeaumondeShopConsidered3 {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 625px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+
+}
+
+.rotateBeaumondeDiscards {
+  position: absolute;
+  top: 1640px;
+  bottom: 0px;
+  left: 700px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 118px;
+  height: 80px;
+
+}
+
+.drawShopConsidered1 {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 20px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+
+}
+
+.drawShopConsidered2 {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 270px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+
+}
+
+.drawShopConsidered3 {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 515px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+
+}
+
+.drawAlliance {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 920px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+}
+
+.shuffleAlliance {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 1022px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+}
+
+.drawBorder {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 1160px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+}
+
+.nextScenario {
+  position: absolute;
+  top: 2520px;
+  bottom: 0px;
+  left: 600px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 200px;
+  height: 160px;
+  font-size: 40px;
+}
+
+.chatPosition {
+  position: absolute;
+  top: 2815px;
+  bottom: 0px;
+  left: 1160px;
+  right: 0px;
+}
+
+.shuffleBorder {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 1262px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+}
+
+.drawRim {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 1402px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 100px;
+  height: 80px;
+  font-size: 150px;
+}
+
+.shuffleRim {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 1505px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+    width: 100px;
+  height: 80px;
+}
+
+.drawMisbehave {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 1920px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 100px;
+  height: 80px;
+  font-size: 150px;
+}
+
+.shuffleMisbehave {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 2022px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 100px;
+  height: 80px;
+  font-size: 150px;
+}
+
+
+.drawBounty {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 2220px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 100px;
+  height: 80px;
+  font-size: 150px;
+}
+
+.shuffleBounty {
+  position: absolute;
+  top: 2315px;
+  bottom: 0px;
+  left: 2322px;
+  right: 0px;
+  text-align: center;
+  z-index: 50;
+  width: 100px;
+  height: 80px;
+  font-size: 150px;
+}
+
+.drawJobLabel {
+  position: absolute;
+  top: 1360px;
+  bottom: 0px;
+  left: 845px;
+  right: px;
+  width: 500px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob1 {
+  position: absolute;
+  top: 1425px;
+  bottom: 0px;
+  left: 900px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob2 {
+  position: absolute;
+  top: 1425px;
+  bottom: 0px;
+  left: 1150px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob3 {
+  position: absolute;
+  top: 1425px;
+  bottom: 0px;
+  left: 1400px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob4 {
+  position: absolute;
+  top: 1425px;
+  bottom: 0px;
+  left: 1650px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob5 {
+  position: absolute;
+  top: 1605px;
+  bottom: 0px;
+  left: 900px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob6 {
+  position: absolute;
+  top: 1605px;
+  bottom: 0px;
+  left: 1150px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob7 {
+  position: absolute;
+  top: 1605px;
+  bottom: 0px;
+  left: 1400px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.drawJob8 {
+  position: absolute;
+  top: 1605px;
+  bottom: 0px;
+  left: 1650px;
+  right: px;
+  text-align: center;
+  z-index:50;
+}
+
+.shop1Chosen1 {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+.shop1Chosen2 {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 250px;
+  right: 0px;
+  text-align: center;
+  z-index:50;
+}
+
+.showAlliance {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 900px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.showBorder {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 1130px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.showRim {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 1380px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.showScenario {
+  position: absolute;
+  top: 2700px;
+  bottom: 0px;
+  left: 370px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.showMisbehave {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 1900px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.showBounty {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 2200px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+.shop1Chosen3 {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  left: 499px;
+  right: 0px;
+  text-align: center;
+  z-index:2;
+}
+
+
+.img1 {
+  position: absolute;
+  top: 272px;
+  bottom: 0px;
+  left: 213px;
+  right: 0px;
+  text-align: center;
+  z-index: -1;
+}
+
+.img2 {
+  position: absolute;
+  top: 380px;
+  bottom: 0;
+  left: 740px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img3 {
+  position: absolute;
+  top: 380px;
+  bottom: 0;
+  left: 845px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img4 {
+  position: absolute;
+  top: 380px;
+  bottom: 0;
+  left: 945px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img5 {
+  position: absolute;
+  top: 380px;
+  bottom: 0;
+  left: 1050px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img6 {
+  position: absolute;
+  top: 480px;
+  bottom: 0;
+  left: 740px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img7 {
+  position: absolute;
+  top: 480px;
+  bottom: 0;
+  left: 845px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img8 {
+  position: absolute;
+  top: 480px;
+  bottom: 0;
+  left: 945px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img9 {
+  position: absolute;
+  top: 480px;
+  bottom: 0;
+  left: 1050px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img10 {
+  position: absolute;
+  top: 623px;
+  bottom: 0;
+  left: 740px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img11 {
+  position: absolute;
+  top: 623px;
+  bottom: 0;
+  left: 845px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img12 {
+  position: absolute;
+  top: 623px;
+  bottom: 0;
+  left: 945px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.img13 {
+  position: absolute;
+  top: 623px;
+  bottom: 0;
+  left: 1050px;
+  right: 0;
+  text-align: center;
+  z-index: 50;
+}
+.p3deck1 {
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  left: 93%;
+  right: 0;
+  text-align: center;
+  z-index:2
+}
+.p3deck2 {
+  position: absolute;
+  top: 17%;
+  bottom: 0;
+  left: 115%;
+  right: 0;
+  text-align: center;
+  z-index:2
+}
+.map-padding {
+    padding-bottom: 20px;
+}
+
+.card {
+  height: auto;
+  width: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.container > canvas {
+  position: absolute;
+}
+
+html{
+    overflow-y: auto;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: 1000;
+    font-variant: small-caps;
+    letter-spacing: 4px;
+} 
+
+

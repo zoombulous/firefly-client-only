@@ -1,0 +1,17 @@
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+
+module.exports = {
+    presets: [
+        '@vue/cli-plugin-babel/preset'
+    ],
+    plugins: [
+        // make sure to include the plugin!
+        new VueLoaderPlugin()
+    ],
+    vue: {
+        html: {
+            // all loader queries can be specified here
+            // also, you can specify options for htmlMinifier here.
+        }
+    }
+}

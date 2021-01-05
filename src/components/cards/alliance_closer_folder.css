@@ -1,0 +1,28 @@
+.card {
+  display: inline-block;
+  min-height: 22em;
+  max-width: 5em;
+  padding-left: 15em;
+  padding-right: 0em;
+  background-size: 15em;
+  background-repeat: no-repeat;
+}
+
+.card-1 {
+    background-image: url("img20200320_16180561.jpg");
+}
+.card-2 {
+    background-image: url("img20200320_16181496.jpg");
+}
+.card-3 {
+    background-image: url("img20200320_16181772.jpg");
+}
+.card-4 {
+    background-image: url("img20200320_16182057.jpg");
+}
+.card-5 {
+    background-image: url("img20200320_16182358.jpg");
+}
+.card-6 {
+    background-image: url("img20200320_16182947.jpg");
+}
